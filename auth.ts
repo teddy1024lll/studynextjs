@@ -14,7 +14,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       return true; // 允许登录
     },
     async redirect({ url, baseUrl }) {
-      // 登录后重定向到首 页
+      // 登录后重定向到首页
       return baseUrl; // http://localhost:3000/
     },
   },
