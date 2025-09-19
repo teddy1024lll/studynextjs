@@ -1,4 +1,3 @@
 {
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/(root)/page": "app/(root)/page.js"
 }

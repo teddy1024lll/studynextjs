@@ -1,17 +1,13 @@
-import { Chilanka } from "next/font/google";
-import React, { Children, ReactNode } from "react";
 import Navbar from "../components/Navbar";
 
-interface Props {
-  children: ReactNode;
-}
-const Layout = (props: Readonly<Props>) => {
+export default function Layout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <main className="font-work-sans">
       <Navbar />
-      {props.children}
+
+      {children}
     </main>
   );
-};
-
-export default Layout;
+}
