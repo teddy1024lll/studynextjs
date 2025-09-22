@@ -26,10 +26,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/page.js"
     ],
-    "/api/auth/[...nextauth]/route": [
+    "/studio/[[...tool]]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/api/auth/[...nextauth]/route.js"
+      "static/css/app/studio/[[...tool]]/page.css",
+      "static/chunks/app/studio/[[...tool]]/page.js"
+    ],
+    "/(root)/startup/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/startup/[id]/page.js"
     ]
   }
 }

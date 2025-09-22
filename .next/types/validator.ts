@@ -92,6 +92,24 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/(root)/startup/[id]/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/startup/[id]">> = Specific
+  const handler = {} as typeof import("../../app/(root)/startup/[id]/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/studio/[[...tool]]/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/studio/[[...tool]]">> = Specific
+  const handler = {} as typeof import("../../app/studio/[[...tool]]/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/api/auth/[...nextauth]/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/auth/[...nextauth]">> = Specific
