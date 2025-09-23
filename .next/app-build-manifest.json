@@ -21,10 +21,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/error.js"
     ],
-    "/(root)/page": [
+    "/(root)/startup/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/page.js"
+      "static/css/app/(root)/startup/[id]/page.css",
+      "static/chunks/app/(root)/startup/[id]/page.js"
     ],
     "/studio/[[...tool]]/page": [
       "static/chunks/webpack.js",
@@ -32,10 +33,21 @@
       "static/css/app/studio/[[...tool]]/page.css",
       "static/chunks/app/studio/[[...tool]]/page.js"
     ],
-    "/(root)/startup/[id]/page": [
+    "/(root)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/startup/[id]/page.js"
+      "static/chunks/app/(root)/page.js"
+    ],
+    "/api/auth/[...nextauth]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/auth/[...nextauth]/route.js"
+    ],
+    "/(root)/startup/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(root)/startup/create/page.css",
+      "static/chunks/app/(root)/startup/create/page.js"
     ]
   }
 }

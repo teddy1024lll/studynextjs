@@ -17,14 +17,16 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  experimental: {
-    ppr: "incremental",
-    // after: true,
-  },
+  // experimental: {
+  //   ppr: "incremental", 
+  // },
+  // devIndicators: {
+  //   appIsrStatus: true,
+  //   buildActivity: true,
+  //   buildActivityPosition: "bottom-right",
+  // },
   devIndicators: {
-    appIsrStatus: true,
-    buildActivity: true,
-    buildActivityPosition: "bottom-right",
+    position: "bottom-right",
   },
 };
 

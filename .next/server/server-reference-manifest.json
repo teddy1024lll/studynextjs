@@ -2,36 +2,46 @@
   "node": {
     "001aea08bbd75e2ca9ea104f48324040a458e1ff2d": {
       "workers": {
+        "app/(root)/startup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fcomponents%2FNavbar.tsx%22%2C%5B%7B%22id%22%3A%22001aea08bbd75e2ca9ea104f48324040a458e1ff2d%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%2C%7B%22id%22%3A%2200641616fc91cec67fb2604f1d877000a904ebb756%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_1%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
         "app/(root)/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fcomponents%2FNavbar.tsx%22%2C%5B%7B%22id%22%3A%22001aea08bbd75e2ca9ea104f48324040a458e1ff2d%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%2C%7B%22id%22%3A%2200641616fc91cec67fb2604f1d877000a904ebb756%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_1%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/(root)/startup/[id]/page": {
+        "app/(root)/startup/create/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fcomponents%2FNavbar.tsx%22%2C%5B%7B%22id%22%3A%22001aea08bbd75e2ca9ea104f48324040a458e1ff2d%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%2C%7B%22id%22%3A%2200641616fc91cec67fb2604f1d877000a904ebb756%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_1%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
+        "app/(root)/startup/[id]/page": "rsc",
         "app/(root)/page": "rsc",
-        "app/(root)/startup/[id]/page": "rsc"
+        "app/(root)/startup/create/page": "rsc"
       },
       "filename": "components/Navbar.tsx",
       "exportedName": "$$RSC_SERVER_ACTION_0"
     },
     "00641616fc91cec67fb2604f1d877000a904ebb756": {
       "workers": {
+        "app/(root)/startup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fcomponents%2FNavbar.tsx%22%2C%5B%7B%22id%22%3A%22001aea08bbd75e2ca9ea104f48324040a458e1ff2d%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%2C%7B%22id%22%3A%2200641616fc91cec67fb2604f1d877000a904ebb756%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_1%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
         "app/(root)/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fcomponents%2FNavbar.tsx%22%2C%5B%7B%22id%22%3A%22001aea08bbd75e2ca9ea104f48324040a458e1ff2d%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%2C%7B%22id%22%3A%2200641616fc91cec67fb2604f1d877000a904ebb756%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_1%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/(root)/startup/[id]/page": {
+        "app/(root)/startup/create/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fcomponents%2FNavbar.tsx%22%2C%5B%7B%22id%22%3A%22001aea08bbd75e2ca9ea104f48324040a458e1ff2d%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%2C%7B%22id%22%3A%2200641616fc91cec67fb2604f1d877000a904ebb756%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_1%22%2C%22filename%22%3A%22components%2FNavbar.tsx%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
+        "app/(root)/startup/[id]/page": "rsc",
         "app/(root)/page": "rsc",
-        "app/(root)/startup/[id]/page": "rsc"
+        "app/(root)/startup/create/page": "rsc"
       },
       "filename": "components/Navbar.tsx",
       "exportedName": "$$RSC_SERVER_ACTION_1"
@@ -41,15 +51,10 @@
         "app/(root)/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fnode_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fe1c58dc93c4518344814c7de05b7bacab3418004%22%2C%22exportedName%22%3A%22revalidateSyncTags%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%2C%7B%22id%22%3A%227fec0c6d2e3b6d2d0321595df970f1b77a3d370c72%22%2C%22exportedName%22%3A%22setPerspectiveCookie%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
-        },
-        "app/(root)/startup/[id]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fnode_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fe1c58dc93c4518344814c7de05b7bacab3418004%22%2C%22exportedName%22%3A%22revalidateSyncTags%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%2C%7B%22id%22%3A%227fec0c6d2e3b6d2d0321595df970f1b77a3d370c72%22%2C%22exportedName%22%3A%22setPerspectiveCookie%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
         }
       },
       "layer": {
-        "app/(root)/page": "action-browser",
-        "app/(root)/startup/[id]/page": "action-browser"
+        "app/(root)/page": "action-browser"
       },
       "filename": "node_modules/@sanity/next-loader/dist/server-actions.js",
       "exportedName": "revalidateSyncTags"
@@ -59,15 +64,10 @@
         "app/(root)/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fnode_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fe1c58dc93c4518344814c7de05b7bacab3418004%22%2C%22exportedName%22%3A%22revalidateSyncTags%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%2C%7B%22id%22%3A%227fec0c6d2e3b6d2d0321595df970f1b77a3d370c72%22%2C%22exportedName%22%3A%22setPerspectiveCookie%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
-        },
-        "app/(root)/startup/[id]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fteddi%2Fnextjsstudy%2Fnode_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227fe1c58dc93c4518344814c7de05b7bacab3418004%22%2C%22exportedName%22%3A%22revalidateSyncTags%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%2C%7B%22id%22%3A%227fec0c6d2e3b6d2d0321595df970f1b77a3d370c72%22%2C%22exportedName%22%3A%22setPerspectiveCookie%22%2C%22filename%22%3A%22node_modules%2F%40sanity%2Fnext-loader%2Fdist%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
         }
       },
       "layer": {
-        "app/(root)/page": "action-browser",
-        "app/(root)/startup/[id]/page": "action-browser"
+        "app/(root)/page": "action-browser"
       },
       "filename": "node_modules/@sanity/next-loader/dist/server-actions.js",
       "exportedName": "setPerspectiveCookie"
